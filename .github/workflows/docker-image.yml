@@ -14,6 +14,6 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build /home/runner/work/Icalingua-plus-plus/Icalingua-plus-plus/icalingua-bridge-oicq/ --file Dockerfile --tag oicq:test
+      run: docker build /home/runner/work/Seele0oO/Icalingua-plus-plus/icalingua-bridge-oicq/ --file Dockerfile --tag oicq:test
     - name: test
       run: docker run oicq:test
