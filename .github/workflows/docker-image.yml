@@ -16,6 +16,6 @@ jobs:
     - name: ls
       run: ls -la
     - name: Build the Docker image
-      run: docker build /home/runner/work/Seele0oO/Icalingua-plus-plus/icalingua-bridge-oicq/ --file Dockerfile --tag oicq:test
+      run: docker build icalingua-bridge-oicq/ --file Dockerfile --tag oicq:test
     - name: test
       run: docker run oicq:test
